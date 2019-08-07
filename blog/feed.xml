@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>J.P. Morgan Blog</title>
-        <link>https://jpmorganchase.github.io/jpmorganchase.github.ioblog</link>
+        <link>https://jpmorganchase.github.io/jpmorganchase.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest J.P. Morgan news and events.</description>
         <lastBuildDate>Tue, 06 Aug 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>J.P. Morgan Blog</title>
-            <url>https://jpmorganchase.github.io/jpmorganchase.github.ioimg/logo-white.png</url>
-            <link>https://jpmorganchase.github.io/jpmorganchase.github.ioblog</link>
+            <url>https://jpmorganchase.github.io/jpmorganchase.github.io/img/logo-white.png</url>
+            <link>https://jpmorganchase.github.io/jpmorganchase.github.io/blog</link>
         </image>
         <copyright>Copyright © 2019 J.P. Morgan Chase</copyright>
         <item>
             <title><![CDATA[Website Release]]></title>
-            <link>https://jpmorganchase.github.io/jpmorganchase.github.ioblog/2019/08/06/blog-post.html</link>
-            <guid>https://jpmorganchase.github.io/jpmorganchase.github.ioblog/2019/08/06/blog-post.html</guid>
+            <link>https://jpmorganchase.github.io/jpmorganchase.github.io/blog/2019/08/06/blog-post.html</link>
+            <guid>https://jpmorganchase.github.io/jpmorganchase.github.io/blog/2019/08/06/blog-post.html</guid>
             <pubDate>Tue, 06 Aug 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Welcome to the new homepage for Open Source at J.P. Morgan! Here you can find the latest news about all things open source at the bank, information on how to contact and get involved, and a listing of all of the current projects.</p> ]]></description>
         </item>

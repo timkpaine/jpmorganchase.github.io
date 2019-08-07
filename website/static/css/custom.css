@@ -1,0 +1,51 @@
+/* your custom css */
+
+div.otherbg {
+    padding: 0px;
+    padding-top:50px;
+    background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ), url('../img/background.png') 0 0 no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+div.mainContainer > div {
+    background: transparent;
+}
+
+img.logo {
+    padding-right:15px;
+    padding-bottom:5px;
+}
+
+img.logo:hover {
+    padding-right:15px;
+    padding-bottom:5px;
+}
+
+.nav-footer .sitemap .nav-home {
+    flex: 1;
+}
+
+.nav-footer .sitemap .nav-home > img {
+    width:200px;
+    height:auto;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

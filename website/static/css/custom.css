@@ -1,15 +1,28 @@
 /* your custom css */
 
-div.otherbg {
-    padding: 0px;
+div.otherbg.productShowcaseSection {
     padding-top:50px;
     background: 
         linear-gradient(
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ), url('../img/background.png') 0 0 no-repeat;
+    background-color: black;
     background-position: center;
     background-size: 100%;
+}
+
+div.mini.productShowcaseSection {
+    padding:0px;
+    background-color:#20232a;
+}
+
+div.mini.productShowcaseSection div.alignCenter {
+    width:100%;
+}
+
+div.mini.productShowcaseSection div.alignCenter h2 {
+    margin-top:0px;
 }
 
 div.mainContainer > div {
@@ -17,13 +30,14 @@ div.mainContainer > div {
 }
 
 img.logo {
-    padding-right:15px;
-    padding-bottom:5px;
+    margin: auto;
+    padding-top:2px;
 }
 
 img.logo:hover {
-    padding-right:15px;
-    padding-bottom:5px;
+    filter: opacity(.8);
+    margin: auto;
+    padding-top:2px;
 }
 
 .nav-footer .sitemap .nav-home {
@@ -31,21 +45,6 @@ img.logo:hover {
 }
 
 .nav-footer .sitemap .nav-home > img {
-    width:200px;
+    min-width: 200px;
     height:auto;
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-}
-
-@media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (max-width: 1023px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
 }

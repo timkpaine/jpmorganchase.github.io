@@ -1,8 +1,9 @@
 ---
 id: contact
 title: Contact
-sidebar_label: 
+sidebar_label: Email 
 ---
 
-## Reaching out
-or via [email](email)
+## Email
+
+Feel free to email us at [open_source@jpmorgan.com](mailto:open_source@jpmorgan.com)

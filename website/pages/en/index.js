@@ -30,12 +30,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
@@ -107,14 +101,14 @@ class Index extends React.Component {
 
     const FeatureCallout = () => (
       <Block layout="threeColumn"
-      className="dark productShowcaseSection paddingBottom"
-      stype={{textAlign: 'center'}}
+      className="otherbg productShowcaseSection paddingBottom"
+      style={{textAlign: 'center'}}
       background="dark">
         {[
           {
             content: 'Tools for financial analytics, blockchain, and more',
             title: 'Projects',
-            image: `${baseUrl}img/code.svg`,
+            image: `img/code.svg`,
             imageAlign: 'top',
 
           },
@@ -126,8 +120,8 @@ class Index extends React.Component {
           },
           {
             content: 'Supporting open source organizations and conferences',
-            title: 'Parnerships',
-            image: `${baseUrl}img/handshake-o.svg`,
+            title: 'Partnerships',
+            image: `img/handshake-o.svg`,
             imageAlign: 'top',
           },
 
@@ -135,11 +129,57 @@ class Index extends React.Component {
       </Block>
     );
 
+    const ProjectCallout = () => (
+      <div>
+      <Block layout="oneColumn"
+      className="mini productShowcaseSection paddingBottom"
+      style={{textAlign: 'center'}}
+      background="dark">
+        {[
+          {
+            title: 'Featured Projects',
+          }
+        ]}
+      </Block>
+      <Block layout="twoColumn"
+      className="productShowcaseSection paddingBottom"
+      style={{textAlign: 'center'}}>
+        {[
+          {
+            image: `img/quorum-logo2.png`,
+            imageAlign: 'left',
+
+          },
+          {
+            content: 'Quorum is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.',
+            title: 'Quorum',
+          },
+
+        ]}
+      </Block>
+      <Block layout="twoColumn"
+      className="productShowcaseSection paddingBottom"
+      style={{textAlign: 'center'}}>
+        {[
+          {
+            content: 'A streaming data visualization engine for Javascript, Perspective makes it simple to build real-time & user configurable analytics entirely in the browser.',
+            title: 'Perspective',
+          },
+          {
+            image: `img/perspective-logo.png`,
+            imageAlign: 'right',
+          },
+
+        ]}
+      </Block>
+      </div>
+    );
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer otherbg">
+        <div className="mainContainer">
           <FeatureCallout />
+          <ProjectCallout />
         </div>
       </div>
     );

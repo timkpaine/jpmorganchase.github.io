@@ -35,14 +35,14 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Links</h5>
-            <a href={`${this.props.config.baseUrl}projects`}>Projects</a>
-            <a href={`${this.props.config.baseUrl}sponsorships`}>Sponsorships</a>
+            <a href={`${this.props.config.baseUrl}docs/projects`}>Projects</a>
+            <a href={`${this.props.config.baseUrl}docs/sponsorships`}>Sponsorships</a>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
           </div>
           <div>
             <h5>Github</h5>
               <a href="https://github.com/jpmorganchase">J.P. Morgan Chase</a>
-              <a href="https://github.com/finos/quorum">Quorum</a>
+              <a href="https://github.com/jpmorganchase/quorum">Quorum</a>
               <a href="https://github.com/finos/perspective">Perspective</a>
               <a href="https://github.com/wepay">WePay</a>
           </div>

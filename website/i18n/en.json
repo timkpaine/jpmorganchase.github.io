@@ -6,10 +6,7 @@
     "tagline": "Open Source",
     "docs": {
       "contact": {
-        "title": "Contact"
-      },
-      "email": {
-        "title": "Email",
+        "title": "Contact",
         "sidebar_label": "Email"
       },
       "perspective": {

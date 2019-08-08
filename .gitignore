@@ -62,3 +62,5 @@ typings/
 yarn.lock
 
 website/build
+.DS_Store
+_site

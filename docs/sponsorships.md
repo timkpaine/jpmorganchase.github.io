@@ -15,3 +15,5 @@ J.P. Morgan is a member of the following open source organizations.
 ## Conferences
 J.P. Morgan is a proud sponsor of several conferences.
 
+- [PyCon USA](https://us.pycon.org/)
+- [Consensus](https://www.coindesk.com/events/consensus-2019/)
